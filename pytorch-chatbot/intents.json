@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "bienvenida",
+      "patterns": [
+        "Hola",
+        "Hey, disculpa",
+        "Como estas?",
+        "Hay alguien ahi?",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches",
+        "Buen dia"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hola me llamo Cesar, bienvenido",
+        "Hola me llamo Cesar, que puedo hacer por ti?",
+        "Hola me llamo Cesar, en que puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "No",
+        "No, gracias",
+        "Adios", 
+        "Muchas gracias, adios", 
+        "Gracias, ten un buen dia"
+      ],
+      "responses": [
+        "Nos vemos, gracias por visitarnos!!",
+        "Que tengas un buen dia!!",
+        "Adios! vuelve pronto."
+      ]
+    },
+    {
+      "tag": "gracias",
+      "patterns": [
+        "Gracias", 
+        "Muchas gracias", 
+        "Si fue de ayuda", 
+        "Muchisimas gracias!"
+      ],
+      "responses": [
+        "No es nada, ¿alguna otra consulta?", 
+        "Cuando quieras, ¿tienes alguna otra duda?", 
+        "Todo un placer, ¿te puedo ayudar en algo mas?"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "¿Que objetos tiene?",
+        "¿Que tipo de articulos hay?",
+        "¿Que vendes?"
+      ],
+      "responses": [
+        "Tenemos un catalogo completo de comics y mangas",
+        "Vendemos mangas por mayor y por menor!!, cualquier consulta, no dudes en escribir!"
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "¿Aceptan pagos con tarjeta de credito?",
+        "¿Aceptan pagos con tarjeta de debito?",
+        "¿Puedo pagar con Paypal?",
+        "¿Trabajan solo con efectivo?",
+        "¿Con que se puede pagar?",
+        "¿Se puede pagar con tarjetas?"
+      ],
+      "responses": [
+        "Aceptamos VISA, Mastercard y Paypal",
+        "Aceptamos la mayoria de las principales tarjetas de credito y Paypal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "¿Cuánto tarda la entrega?",
+        "¿Cuanto tiempo tarda el envio?",
+        "¿Cuándo recibo mi entrega?"
+      ],
+      "responses": [
+        "El delivery demora de 2 a 4 dias como maximo",
+        "El envio tarda de 2 a 4 dias."
+      ]
+    },
+    {
+      "tag": "consultas",
+      "patterns":[
+        "Si"
+      ],
+      "responses": [
+        "¿En que mas puedo ayudarle?",
+        "¿Cual es su consulta?"
+      ]
+    },
+    {
+      "tag": "compras",
+      "patterns":[
+        "¿Como puedo comprar?",
+        "¿Donde se puede comprar"
+      ],
+      "responses": [
+        "Puede comprar en cualquiera de nuestras sucursales o en la pagina web",
+        "En cualquiera de nuestras tiendas, o por internet"
+      ]
+    },
+    {
+      "tag": "horario",
+      "patterns":[
+        "a que hora abren",
+        "a que hora atienden",
+        "cual es su horario de atencion",
+        "Esta abierto ahora",
+        "Que dias atienden",
+        "Que dias tienen abierto"
+      ],
+      "responses": [
+        "Abrimos todos los dias, desde las 10 am, hasta las 7pm",
+        "Atendemos de lunes a viernes, desde las 10 am, hasta las 7pm"
+      ]
+    }
+  ]
+}
